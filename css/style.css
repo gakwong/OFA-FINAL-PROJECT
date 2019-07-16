@@ -59,3 +59,8 @@ li a:hover {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
 }
+
+.font-type {
+  font-family: 'Arial';
+  font-size: 20px;
+}
