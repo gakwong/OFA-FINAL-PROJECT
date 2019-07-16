@@ -6,12 +6,6 @@
   padding-bottom: 40px;
 }
 
-.header-item {
-  /* If we use grids
-  grid-area: header;
-  */
-  position: fixed;
-}
 
 .grid-container > div {
   /*background-color: rgba(255, 255, 255, 0.8);*/
@@ -20,8 +14,38 @@
   font-size: 30px;
 }
 
-
 /* FOR SCROLL TESTING */
 .big-break {
   line-height: 10000px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color:;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  /*background-color: #111;*/
+}
+
+.active {
+  /*background-color: #4CAF50;*/
 }
