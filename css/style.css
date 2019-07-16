@@ -24,28 +24,31 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color:;*/
+  /*background-color: grey;*/
+  /*display: inline;*/
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 li {
-  float: left;
+  display: inline;
+  /*float: left;*/
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: black;
-  text-align: center;
+  /*text-align: center;*/
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  /*background-color: #111;*/
+li a:hover {
+  background-color: grey;
 }
 
-.active {
-  /*background-color: #4CAF50;*/
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
