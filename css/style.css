@@ -11,6 +11,10 @@
   grid-area: main;
 }
 
+.main1-element {
+  grid-area: main1;
+}
+
 .right-element {
   grid-area: right;
 }
@@ -18,6 +22,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
+    'menu main1 main1 main1 main1 main1'
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
@@ -46,7 +51,7 @@ nav {
 
 /* FOR SCROLL TESTING */
 .big-break {
-  line-height: 10000px;
+  line-height: 400px;
 }
 
 ul {
