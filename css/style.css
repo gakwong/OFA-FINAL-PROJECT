@@ -15,6 +15,12 @@
   grid-area: main1;
 }
 
+.main2-element {
+  grid-area: main;
+}
+
+
+
 .right-element {
   grid-area: right;
 }
@@ -48,6 +54,7 @@ body {
 
 nav {
   text-align: center;
+  font-size: 30px;
 }
 
 /* FOR SCROLL TESTING */
@@ -60,6 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: white;
   /*background-color: grey;*/
   /*display: inline;*/
   position: fixed;
