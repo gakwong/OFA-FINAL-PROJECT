@@ -4,10 +4,15 @@
 
 .header-element {
   grid-area: header;
+  margin-bottom: 50px;
 }
 
 .main-element {
   grid-area: main;
+}
+
+.right-element {
+  grid-area: right;
 }
 .grid-container {
   display: grid;
