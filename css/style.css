@@ -9,6 +9,7 @@
 
 .main-element {
   grid-area: main;
+  
 }
 
 .main1-element {
@@ -23,15 +24,16 @@
 
 .right-element {
   grid-area: right;
+
 }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main1 main1 main1 main1 main1'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'main1 main1 main1 main1 main1 main1'
+    'main main main right right right'
+    'footer footer footer footer footer footer';
   grid-gap: 10px;
   /*background-color: #2196F3;*/
   padding: 10px;
