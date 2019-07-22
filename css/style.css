@@ -17,7 +17,7 @@
 }
 
 .main2-element {
-  grid-area: main;
+  grid-area: main2;
 }
 
 
@@ -33,10 +33,30 @@
     'header header header header header header'
     'main1 main1 main1 main1 main1 main1'
     'main main main right right right'
+    'main2 main2 main2 right2 right2 right2'
     'footer footer footer footer footer footer';
   grid-gap: 10px;
   /*background-color: #2196F3;*/
   padding: 10px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 .grid-container > div {
@@ -110,8 +130,10 @@ li a:hover {
 
 /* Image overlay  Some Page 2 stuff*/
 .container {
+  display: inline-block;
   position: relative;
-  width: 50%;
+  width: 30%;
+
 }
 
 .image {
@@ -147,4 +169,17 @@ li a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.button {
+  background-color: #459DD1;
+  border: none;
+  color: darkgrey;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
