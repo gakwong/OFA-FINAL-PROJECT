@@ -9,7 +9,7 @@
 
 .main-element {
   grid-area: main;
-  
+
 }
 
 .main1-element {
@@ -64,7 +64,7 @@ nav {
   line-height: 400px;
 }
 
-ul {
+ul.navs {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -139,7 +139,7 @@ li a:hover {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
