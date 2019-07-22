@@ -132,7 +132,8 @@ li a:hover {
 .container {
   display: inline-block;
   position: relative;
-  width: 30%;
+  width: 40%;
+  padding: 0px 60px;
 
 }
 
@@ -161,14 +162,14 @@ li a:hover {
 
 .text {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .button {
