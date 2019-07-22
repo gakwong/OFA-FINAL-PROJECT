@@ -78,6 +78,7 @@ nav {
   text-align: center;
   font-size: 30px;
   position: fixed;
+  z-index: 10;
 }
 
 /* FOR SCROLL TESTING */
