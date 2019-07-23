@@ -6,7 +6,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Della+Respira&display=swap" rel="stylesheet">
-    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -24,7 +23,7 @@
       </header>
 
       <article class="main1-element">
-        <img onload="showDivs(1)" class="img-slide" src="images/depressed_1.jpg" style="width:100%">
+        <img class="img-slide" src="images/depressed_1.jpg" style="width:100%">
         <img class="img-slide" src="images/depressed_2.jpg" style="width:100%">
         <img class="img-slide" src="#" style="width:100%">
         <img class="img-slide" src="#" style="width:100%">
@@ -39,7 +38,7 @@
 
 
     <!-- article 1 -->
-      <article class="main-element">
+      <article class="main-element-text">
         <h1> Why Mental Health Important</h1>
         <p>
           Emotional and mental health is important because it’s a vital part of your life and impacts your thoughts,
@@ -52,17 +51,39 @@
     <!-- article 2 -->
 
       <article class="right-element">
+
         <img src="images/MayMentalHealth.png" class="right"/>
+
       </article>
 
       <article class="main2-element">
+<!--
+        <div class="fadein">
 
+          <div>
+            <img src="images/depressed_1.jpg" style="width:100%">
+          </div>
+
+          <div>
+            <img src="images/test.png" style="width:100%">
+          </div>
+
+          <div>
+            <img src="images/depressed_2.jpg" style="width:100%">
+          </div>
+
+        </div>
+    -->
       </article>
+
+
       <article class="right2-element">
         <h1>Mental Health Statistics:</h1>
-        <p>
-          One in 5 adults experiences a mental health condition every year.
-        </p>
+        <ul class="stats">
+          <li class="blocks"> One in 5 adults experiences a mental health condition every year. </li>
+          <li class="blocks"> 6.9% of adults in the U.S.—16 million—had at least one major depressive episode in the past year. </li>
+          <li class="blocks"> </li>
+        </ul>
         <p>
           Currently there are many differnet types of Mental Health Issues, such as:
         </p>
@@ -77,11 +98,13 @@
 
         <a class="button" href="Page_2.html"> Learn More </a>
       </article>
+
     </div>
     <br />
     <br />
     <br />
     <br />
+    <script src="js/main.js"></script>
   </body>
 
 </html>
