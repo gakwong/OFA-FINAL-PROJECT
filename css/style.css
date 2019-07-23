@@ -9,7 +9,6 @@
 
 .main-element {
   grid-area: main;
-
 }
 
 .main1-element {
@@ -20,11 +19,12 @@
   grid-area: main2;
 }
 
-
-
 .right-element {
   grid-area: right;
+}
 
+.right2-element {
+  grid-area: right2;
 }
 
 .grid-container {
@@ -97,6 +97,10 @@ ul.navs {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+li.blocks {
+  display: block;
 }
 
 li {
@@ -177,7 +181,7 @@ li a:hover {
 .button {
   background-color: #459DD1;
   border: none;
-  color: darkgrey;
+  color: #e8e3d8;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
