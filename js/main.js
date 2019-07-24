@@ -16,11 +16,18 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
-$(function(){
-    $('.fadein img:gt(0)').hide();
-    setInterval(function(){
-      $('.fadein :first-child').fadeOut()
-         .next('img').fadeIn()
-         .end().appendTo('.fadein');},
-      3000);
-});
+function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Show Less";
+    moreText.style.display = "inline";
+  }
+}
