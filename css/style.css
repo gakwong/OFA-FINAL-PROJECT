@@ -270,6 +270,7 @@ img.center {
 }
 
 #more {display: none;}
+#more1 {display: none;}
 
 .list-background {
   background-color: lightgrey;
@@ -336,6 +337,15 @@ table {
 td {
   text-align: center;
   width: 25% ;
+}
+
+#myBtn {
+  background-color: lightgreen;
+}
+
+#back1 {
+
+   background-repeat: no-repeat;
 }
 /*
 .fadein { position:relative; width:500px; height:332px; }
