@@ -41,7 +41,7 @@
 .footer-element {
   grid-area: footer;
   background-color: black;
-  color:white;
+  color: #abbbd4;
 }
 
 .grid-container {
@@ -299,6 +299,43 @@ h1.headtext {
 #back {
   background-image: url("../images/solution1.jpg");
   background-repeat: no-repeat;
+}
+
+.backtext {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.containers {
+  display: inline-block;
+  width: 50%;
+  padding: 0px 60px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.imagesc {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+li.mar {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td {
+  text-align: center;
+  width: 25% ;
 }
 /*
 .fadein { position:relative; width:500px; height:332px; }
