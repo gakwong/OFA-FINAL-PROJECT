@@ -276,6 +276,20 @@ img.center {
 .list-background.size {
   font-size: 20px;
 }
+
+h1.headtext {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+p.ptext {
+  font-size: 20px;
+  background-color: lightblue;
+  padding: 20px;
+  box-shadow: 5px 5px 10px lightgrey;
+  border: 10px black;
+  margin: 10px 50px 10px 50px;
+}
 /*
 .fadein { position:relative; width:500px; height:332px; }
 .fadein img { position:absolute; left:0; top:0; }
