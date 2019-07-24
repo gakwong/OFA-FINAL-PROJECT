@@ -205,6 +205,9 @@ li a:hover {
 .center {
   text-align: center;
 }
+ .center.text2 {
+   color: green;
+ }
 
 .overlay {
   position: absolute;
@@ -278,17 +281,24 @@ img.center {
 }
 
 h1.headtext {
+  color: #3a7334;
+  font-weight: bold;
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 3px black;
 }
 
-p.ptext {
+.ptext {
   font-size: 20px;
   background-color: lightblue;
   padding: 20px;
   box-shadow: 5px 5px 10px lightgrey;
   border: 10px black;
-  margin: 10px 50px 10px 50px;
+  margin: 10px 100px 10px 100px;
+}
+
+#back {
+  background-image: url("../images/solution1.jpg");
+  background-repeat: no-repeat;
 }
 /*
 .fadein { position:relative; width:500px; height:332px; }
